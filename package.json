@@ -1,0 +1,22 @@
+{
+  "name": "child-url-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch random, same site URLs from a site.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/standard/bin/cmd.js",
+    "lint:fix": "./node_modules/standard/bin/cmd.js --fix"
+  },
+  "author": "Peter Snyder",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "node-fetch": "^2.6.1",
+    "puppeteer-core": "^7.1.0",
+    "random-js": "^2.1.0",
+    "tldjs": "^2.3.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
